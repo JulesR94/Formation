@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./exo2.css" type="text/css"> 
+    <title>Exo 1</title>
+</head>
+
+ 
+<body>
+    <form action="traitement.php" method="post"autocomplete="off" enctype="multipart/form-data">
+      <fieldset>
+            <legend>Formulaire d'inscription</legend>
+            <div>
+                <span>Nom</span>
+                <input type="text" id="nom" name="nom" placeholder="Nom" required/>
+            </div>
+            <div>
+                <label for="Nom">Prenom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Prenom" required/>
+            </div>
+            <div>
+                <label for="mail"Nom>Email</label>
+                <input type="mail" id="mail" name="mail" placeholder="Email" required/>
+            </div>
+			<div>
+                <span>Sexe</span>
+				<label for="fem">Féminin</label>
+				<input type="radio" id="fem" name="sexe"/>  
+				<label for="masc">Masculin</label>
+				<input type="radio" id="mas" name="sexe" checked />
+            </div>    
+                <div>
+                    <span>Télécharger</span>
+                    <input type="file"/>
+                </div>
+                <div>
+                    <label for="Pays">Pays</label>
+                    <select id="Pays" name="country"> 
+                        <option>votre pays</option>
+                        <option value="France" >France</option> 
+                        <option value="Espagne">Espagne</option>
+                        <option value="Allemangue">Allemagne</option>
+                        <option value="Italie">Italie</option>                
+                    </select> 
+                </div>
+                <div>
+                    <span>Les langages préféres</span>
+                    <select id="lang" name="langages" multiple>
+                        <option value="Votre choix">Votre choix</option>
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="JS">JS</option>
+                        <option value="PHP">PHP</option>
+                    </select>
+                    <span class="act">(Pour faire plusieurs choix maintenez la touche CTRL enfoncée)</span>
+                </div>
+
+                <div>
+                    <span>Domaines d'acctivités</span>
+                    <label for="informatique">Informatique</label>
+                    <input type="checkbox" id="informatique" name="infor" checked/>
+                    <label for="gestion">Gestion</label>
+                    <input type="checkbox" id="gestion" name="gest"/>
+                    <label for="Pedagogie">Pédagogie</label>
+                    <input type="checkbox" id="pedagogie" name="peda"/>                
+                </div>
+                <div>	
+                    <input type="submit" value="Soumettre"/>
+                    <button type="reset">Annuler</button>
+                </div>
+        </fieldset>
+</form> 
+
+<hr/>
+<a href="#">HTML5</a> | <a href="#">CSS3</a>
+</html>

@@ -1,0 +1,53 @@
+@font-face{
+    font-family: myFont;
+    src: url(front/CSS/font/BoostardSignature.ttf); /*pour intégrer une police depuis une source*/
+}
+h2{
+    font-family: myFont;
+    color: aqua;
+    font: italic normal bold 3em myFont;
+    
+}
+/*font-style/font-variant/font-weight/font-size/font-family>ordre des valeurs*/
+
+.font-fixe{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.font-none{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-with{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'lobster'; cursive /*pour utiliser une police depuis internet*/
+    font-variant: small-caps;   
+}
+
+/*body{
+    font-size: 1em;
+}*/
+
+html{
+    font-size: 1rem; /*rem pour casser l'effet cascade*/
+}
+
+.small{
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+.big{
+    font-size: 1.6em;
+    font-weight:800; /*Pour mettre en gras avec la valeur*/
+    font-style: oblique;
+}
+.big{
+    font-size: 1.6em;
+
+}
+.ft-big{
+    font-size: 1.7rem;
+}

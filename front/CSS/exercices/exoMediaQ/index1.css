@@ -1,0 +1,23 @@
+/* Mobile Style*/
+body{
+    background-color: rgb(240, 154, 154);
+    }
+
+/*Tablet Styles*/
+@media screen and (min-width:401px) and (max-width:960px) {
+    body{
+        background-color: yellow;
+    }  
+}
+
+/*Desktop Styles */
+@media screen and (min-width:961px) {
+    body{
+        background-color: blue;
+    }
+}
+
+
+
+
+

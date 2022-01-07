@@ -1,0 +1,30 @@
+h1{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy; /*solid, double, dotted*/
+    letter-spacing: 0.5em;
+}
+/*text-decoration / text-decoration-line / text-decoration-style / text-decoration-color*/
+span{
+    text-emphasis-style:triangle;
+    text-emphasis-color: green;
+    text-transform: capitalize;
+    background-color: orange; /*met en majuscule la 1ere lettre de chaque mot selectionné*/
+}
+h2{
+    text-shadow: 8px 8px 6px red;
+    text-transform: uppercase ; /*met tout en majuscule*/
+    font-size: 2em; 
+}
+.art1{
+    text-align: left;
+}
+.art2{
+    text-align: right;
+}
+.art3{
+    text-align: center;
+}
+p{
+    text-indent: 3em;
+}

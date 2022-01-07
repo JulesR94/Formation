@@ -1,0 +1,36 @@
+#title {
+    color: #64F4FE;
+    text-align: center;
+}
+.a2{
+    color: rgb(209, 92, 56);
+}
+
+em{
+    color: gray;
+}
+.a3{
+    color: black;
+}
+strong{
+    color: green;
+}
+.a4{
+    color: rgba(177, 66, 39, 0.979);
+    text-align: center;
+}
+
+.a5{
+    color: slateblue;
+}
+h5{
+    color: rgb(223, 226, 7);
+    font-style: italic;
+}
+span{
+    color: aqua;
+}
+.a1{
+    color: rgb(11, 11, 122);
+    font-weight: bold;
+}

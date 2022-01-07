@@ -1,0 +1,18 @@
+p{
+    color: orange;
+}
+em{
+    color: green;
+}
+.red{
+    color: red;
+}
+span.red{
+    color: green;
+}
+span{
+    color: indigo !important; /*pour casser la chaine et mettre un élément prioritaire, eviter de trop l'utiliser*/
+}
+h1{
+    color: blue;
+}

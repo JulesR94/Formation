@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./correctionexo2.css">
+    <title>Exercice1</title>
+</head>
+<body>
+    <form action="traitement.php" method="post">
+        <fieldset>
+            <legend>Formulaire d'inscription :</legend>
+            <br>
+            <div>
+                <label for="nom" class="class">Nom:</label>
+                <input type="text" name="nom" id="nom" placeholder="Veuillez entrer votre nom">
+            </div>
+            <br>
+            <div>
+                <label for="prenom" class="class">Prénom:</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Veuillez entrer votre prenom">
+            </div>
+            <br>
+            <div>
+                <label for="email" class="class">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Veuillez entrer votre email">
+            </div>
+            <div>
+                <span>Sexe:</span>
+                <label for="femme">Femme</label>
+                <input type="radio" name="sexe" id="femme" checked>
+                <label for="homme">Homme</label>
+                <input type="radio" name="sexe" id="homme">
+            </div>
+            <br>
+            <div>
+                <label for="file" class="class">Photo:</label>
+                <input type="file" name="file" id="file" accept=".png, .jpeg">
+            </div>
+            <div>
+               <label for="pays" class="class">Pays</label>
+                <select name="pays" id="pays">
+                    <option value="france" selected>France</option>
+                    <option value="allemagne">Allemagne</option>
+                    <option value="italie">Italie</option>
+                    <option value="espagne">Espagne</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="langage" class="class">Langages préferés :</label>
+                <select name="langage" id="langage" multiple>
+                    <option value="php">PHP</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="html">HTML</option>     
+                </select>
+                <span id="text">Pour faire plusieurs choix maintenez la touche CTRL.</span>
+            </div>
+            <br>
+            <div>
+                <span> Domaines d'activités :</span>
+                <input type="checkbox" id="informatique" name="informatique">
+                <label for="informatique">Informatique</label>
+                <input type="checkbox" id="gestion" name="gestion">
+                <label for="gestion" >Gestion</label>
+                <input type="checkbox" id="pedagogie"name="pedagogie">
+                <label for="pedagogie">Pédagogie</label>
+                
+            </div>
+            <div>
+                <input type="submit" name="Envoyer">
+                <input type="reset" name="Annuler">
+            </div>
+        </fieldset>
+    </form>
+    <hr\>
+    <a href="">HTML5</a> | <a href="">CSS3</a>
+
+    <hr\>
+    <table border='1'>
+        <caption>Planning des taches par équipes</caption>
+        <thead>
+            <tr>
+                <th rowspan='2'>Équipes</th>
+                <th colspan='6'>Janvier</th>
+                <th rowspan='2'></th>
+            </tr>
+            <tr>
+                <td>Lundi</td>
+                <td>Mardi</td>
+                <td colspan='2'>Mercredi</td>
+                <td>Jeudi</td>
+                <td>Vendredi</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Equipe1</td>
+                <td colspan='4'>Tache1</td>
+                <td colspan='2'>Tache2</td>
+                <td rowspan='2'>Semaine1</td>
+            </tr>
+            <tr>
+                <td>Equipe2</td>
+                <td colspan='3'>Tache1</td>
+                <td colspan='3'>Tache2</td>
+            </tr>
+            <tr>
+                <td>Equipe1</td>
+                <td>Tache3</td>
+                <td colspan='4'>Tache4</td>
+                <td>Tache5</td>
+                <td rowspan='2'>Semaine2</td>
+            </tr>
+            <tr>
+                <td>Equipe2</td>
+                <td colspan='2'>Tache3</td>
+                <td colspan='4'>Tache4</td>
+            </tr>
+            <tr>
+                <td>Equipe1</td>
+                <td colspan='3'>Tache5</td>
+                <td colspan='3'>Tache6</td>
+                <td rowspan='2'>Semaine3</td>
+            </tr>
+            <tr>
+                <td>Equipe2</td>
+                <td>Tache5</td>
+                <td colspan='5'>Tache6</td>
+            </tr>
+            <tr>
+                <td>Equipe1</td>
+                <td colspan='4'>Tache7</td>
+                <td colspan='2'>Tache8</td>
+                <td rowspan='2'>Semaine4</td>
+            </tr>
+            <tr>
+                <td>Equipe2</td>
+                <td colspan='3'>Tache7</td>
+                <td colspan='3'>Tache8</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
