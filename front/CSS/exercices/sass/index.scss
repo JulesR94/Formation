@@ -1,0 +1,87 @@
+$bannercolor:#1b0744;
+$largeurprincipal: 300px;
+$maincolor: #9085a3;
+$textcolor: white;
+$bodycolor: #dddae1;
+@mixin daic {
+    display: flex;
+    align-items: center;
+}
+@mixin dfdr {
+    display: flex;
+    flex-direction: row;
+}
+@mixin dfc{
+    display: flex;
+    justify-content: center
+}
+
+body{
+    @include daic();
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $bodycolor;
+} 
+
+header {
+    @include dfdr();
+    width: 100%;
+}
+#titre {
+    @include daic();
+    justify-content: center;
+    color: $textcolor;
+    background-color: $bannercolor;
+    width: 100%;
+    height: 122px;
+    margin-left: 5px;
+    padding: 0px 10px 0px 10px;
+}
+nav {
+    width: 80%;
+    height: 50px;
+    background-color: $bannercolor;
+    margin-top: 5px;
+
+        ul {
+        @include dfdr();
+        list-style: none;
+
+            li {
+            padding: 0 0 0 35px;
+        
+                a {
+                color: $textcolor;
+                text-decoration: none;
+                }
+            }
+        }        
+}
+section {
+    @include dfdr();
+    width: 100%;
+    height: calc(100vh - 253px);
+    margin: 5px 5px 5px 5px;
+
+    article {
+    width: 60%;
+    background-color: $maincolor;
+    margin: 0px 2.5px 0px 0px;
+    }
+
+    aside {
+    width:40%;
+    background-color: $maincolor;
+    margin: 0px 0px 0px 2.5px;
+    }
+}
+p {
+    margin-left: 10px;
+}
+footer {
+    @include dfc();
+    width: 100%;
+    min-height: 50px;
+    color: $textcolor;
+    background-color: $bannercolor;
+}
