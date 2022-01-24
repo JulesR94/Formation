@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Images</title>
+	</head>
+	<body>
+		<h1>images</h1>
+			
+		<p>
+			<img src="images/web-technologie.jpg" alt="Le Web" height="100 width="100"/>
+			<img src="images/web-technologie.jpg" alt="Le Web"/>  <!--width=largeur, height= hauteur-->
+			
+			<img src="images/web-technologie.jpg" alt="Le Web" 
+				srcset="images/web-technologie.jpg 100w,
+						images/web-technologie.jpg 200w,
+						images/web-technologie.jpg 400w
+						"
+						/>
+							<!-- scrset:Pour déclarer plusieurs taille d'images et selecioner la plus adapté -->
+						
+						<img srcset="images/web-technologie.jpg 300w,
+								images/web-technologie.jpg 500w,
+								images/web-technologie.jpg 700w,
+								
+							sizes=(max-widht: 350px) 300px,
+								  (max-width: 600px) 500px"							
+						src="images/web-technologie.jpg" alt="web technologie"							
+						/>
+						<!--Cela nous permet d'adapter la taille de l'image à la résolution de l'écran du client -->
+		
+			<hr/>
+				<figure>
+					<img src="images/web-technologie.jpg" alt="Le Web" height="100 width="100"/>
+						<figcaption>Le Web</figcaption>
+				</figure>
+					<!--Pour ajouter une légende à l'image-->
+	
+		</p>
+		
+	
+	</body>
+		
+		
+		
+</html>

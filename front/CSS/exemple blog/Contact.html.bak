@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<title>Contact</title>
+	</head>
+	<body>
+	<header>
+		<img src="images/logo1.jpg" alt="logo"/ width="100"> 
+		<form>
+			<input type="search" placeholder="Rechercher..."/>
+			<button type="submit">Rechercher</button>
+			<nav>
+				<ul>
+					<li><a href="exemple10.html">Accueil</a></li>
+					<li><a href="Presentation.html">Présentation</a></li>
+				</ul>
+			</nav>
+		</form>	
+		<h1>Mon Blog</>
+		<h3><i>Apprendre le Code</i></h3>
+		
+
+	</header>
+	
+	<main>
+		<h1>Contact</h1>
+		<address>
+			<h2>Afpa Créteil</h2>
+			<p>09 Rue Marc Séguin</p>
+			<p>Créteil</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10515.321628047195!2d2.435245!3d48.7851279!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1638805410186!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</address>
+	</main>
+	<footer>
+		
+	<fieldset>	
+		<form action="" method="post">
+			<p>Inscrivez-vous à notre Newsletter</p>
+			<div>
+			<label for="name">Nom</label> 	
+			<input type="text" name="nom" id="name" placeholder="Veuillez entrer votre nom svp" required/> 
+			</div>
+			
+			<div>
+			<label for="prenom">Prénom</label> 	
+			<input type="text" name="prenom" id="prenom" placeholder="Veuillez entrer votre email svp" required/> 
+			</div>
+			
+			<div>
+			<label for="email">Email</label> 	
+			<input type="email" name="email" id="email" placeholder="Veuillez entrer votre email svp" required/> 
+			</div>
+			
+			<div>
+				<input type="submit" value="Soumettre"/>
+			</div>
+	
+	</fieldset>
+	
+		</form>
+			<p>Vous avez une suggestion? écrivez nous <a href="mailto:test@gmail.com">ici</a>
+			
+			<div>
+				<label for="desc">Votre avis:</label>
+				<textarea id="desc" placeholder="description" cols="50" rows="20"> </textarea> <!--Pour ajouter un carré un l'on peut écrire du texte-->
+			</div>
+			
+		<h2>Liens utiles</h2>
+		<ul>
+			<li><a href="exemple10.html">Accueil</a></li>
+			<li><a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228" target="_blank">Mentions légales</a></li>
+		</ul>
+		<h2>Suivez nous:</h2>
+		<div> <img src="images/reseaux.png" alt="Reseaux sociaux"width="200"/> </div>
+		
+		<p>Copyright &copy; 2021</p>
+	</footer>
+	</body>
+</html>

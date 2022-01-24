@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Contact</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.png" alt="logo"/>
+			<form action="recherche.php" method="get">
+				<input type="search" placeholder="Recherche..."/>
+				<button type="submit">Rechercher</button>
+				<nav>
+					<ul>
+						<li><a href="accueil.html">Accueil</a></li>
+						<li><a href="présentation.html">Présentation</a></li>
+						<li><a href="contact1.html">Contact</a></li>
+					</ul>				
+				</nav>
+			</form>	
+		</header>
+		<main>
+			<h1>Bienvenue dans la page contact</h1>
+			<p>Veuillez remplir le formulaire s'il-vous-plaît</p>
+			<form action="traitement.php" method="post" autocomplete="off">
+				</div>
+					<label for="nom">Nom*</label>
+					<input type="text" name="nom" id="nom" placeholder="NOM" minlength="2" maxlength="12" required pattern="[A-Z]+" />
+				</div>
+				<div>
+					<label for="email">email*</label>
+					<input type="email" name="email" id="email" placeholder="*******@*****.com" required />
+				</div>
+				<div>
+					<label for="objet">Objet*</label>
+					<input type="text" id="objet" name="objet"  placeholder="L'objet de votre demande svp" required />
+				</div>
+				<div>
+					<label for="avis">Votre Avis</label>
+					<textarea name="avis" id="avis" placeholder="             Votre avis nous intéresse" cols="50" rows="5"></textarea>
+				</div>
+				<div>
+				<div>
+					<input type="submit" value="envoyer"/>
+				</div>
+			</form>
+		
+			<h2>Pour nous contacter</h2>
+			<a href="mailto:admin@afpa.fr">Par mail</a>
+			<address> 
+				<p> Afpa 09 rue Marc Seguin Créteil </p>
+			</address>
+			<p> Plan du site </p>
+			<iframe 
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21030.64380907974!2d2.4177783553562957!3d48.78512658042381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1638803079956!5m2!1sfr!2sfr" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+			</iframe>
+		</main>
+		<footer>
+			<h2>liens utiles</h2>
+			<ul>
+				<li>Accueil</li>
+				<li>Mentions légales</li>
+			</ul>
+			<form action="recherche.php" method="post">
+				<input type="text" placeholder="Inscrivez-vous"/>
+				<input type="submit" value="envoyer"/>
+			</form>
+			<p>Copyright copy 2021</p>
+		</footer>
+	</body>
+</html>

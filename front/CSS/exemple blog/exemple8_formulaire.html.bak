@@ -1,0 +1,114 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Formulaires</title>
+	</head>
+		<body>
+			<h1>Formulaires</h1>
+			<form action="traitement.php" method="post"autocomplete="off" enctype="multipart/form-data"> <!--attribut autocomplete="off" pour ne pas que informations précédemment tapé dans champ ne soit enregistré-->
+<fieldset>				<!--nous aide a traiter l'information qu'on veut envoyer, dit qu'on veut récupérer d'autres fichiers que du textuel-->	
+
+
+		<fieldset>
+			<legend>Civilité</legend>
+			<div>
+				<label for="mad">Madame</label>
+				<input type="radio" id="mad" name="civilite"/>
+			</div>
+			<div>
+				<label for="mon">Monsieur</label>
+				<input type="radio" id="mon" name="civilite" checked /> <!-- radio Pour proposer la selection d'un choix unique-->
+		</fieldset>			<!-- checked pour pre selectionné un choix-->	
+			</div>
+			
+			
+			
+			<div>
+				<label for="fr">Français:</label>
+				<input type="checkbox" id="fr" name="french" checked />
+				
+				<label for="en">Anglais:</label>
+				<input type="checkbox" id="en" name="english"/>
+																	<!--checkbox pour proposer une selection multiple-->
+				<label for="es">Espagnol:</label>
+				<input type="checkbox" id="es" name="espagnol"/>
+				
+				<label for="de">Allemand:</label>
+				<input type="checkbox" id="de" name="deutsch"/>			
+			</div>
+			
+			<div>
+				<label for="villes">Villes</label>
+				<select id="villes" name="city" multiple > <!-- multiple pour rendre le choix multiple-->
+					<option>Choisissez votre ville</option>
+					<option value"="paris" selected >Paris</option> <!-- selected pour pre selectionné un champ-->
+					<option value"="marseille">Marseille</option>
+					<option value"="bordeaux">Bordeaux</option>
+					<option value"="lyon">Lyon</option>
+					<option value"="toulouse">Toulouse</option>
+				
+				</select> <!-- Pour créer un menu déroulant-->
+				
+				
+			
+			</div>
+		
+		
+			<legend>Coordonnées</legend>
+			<div>
+				<input type="hidden" value=" tk_05de61rr5ss" name="token" /> <!--Pour ajouter un champ masqué-->
+			<label for="nom">Nom</label> <!-- C'est une etiquette de champ-->	
+			<input type="text" name="nom" id="nom" placeholder="Veuillez entrer votre nom svp" minlength="3" maxlength="6" value="Mr Dupond" readonly /><!-- balise inline autoformante pour insérer un champ, placeholder=indiqué une information pour le client -->
+			</div																				<!--min/maxlength pour déterminer le nmbre de caractére min et max que l'on autorise-->
+																								<!-- value= pour rendre un champ pré rempli, readonly=pour bloquer ce champ a la lecture seulement-->
+			<div>
+			<label for="Prenom">Prénom</label> 	
+			<input type="text" name="Prenom" id="Prenom" placeholder="Veuillez entrer votre prénom svp" required pattern="[A-Z]+" size="100"/> <!--required= pour rendre obligatoire un champ, il faut mettre le + pour indiquer qu'il y au moins A-Z ou plus-->
+			</div>
+			
+			<div>
+			<label for="email">Email</label> 	
+			<input type="email" name="email" id="email" placeholder="Veuillez entrer votre email svp" required/> 
+			</div>
+			
+			<div>
+			<label for="mdp">Mot de passe:</label> 	
+			<input type="password" name="mdp" id="mdp" placeholder="Veuillez entrer votre mot de passe svp" required/> 
+			</div>
+</fieldset>
+
+
+			
+			<div>
+				<label>Age</label>
+				<input type="number" min="18" max="85" step="2"/> <!--step=pour indiquer comment on souhaite que la barre deroule (de 2 en 2 par ex)-->
+			</div>
+			
+			
+			
+			<div>
+				<label>Date de naissance</label> <!--champ date de naissance avec un calendrier-->
+				<input type="date"/>
+				
+			<div>
+				<label>Télécharger</label>
+				<input type="file"/>
+				
+			<div>
+				<label for="desc">Description</label>
+				<textarea id="desc" placeholder="description" cols="50" rows="20"> </textarea> <!--Pour ajouter un carré un l'on peut écrire du texte-->
+				
+			</div>
+			
+			</div>	
+				<input type="submit" value="Soumettre"/>
+				<button type="reset">Annuler</button> <!-- pour rajouter un bouton avec une fonction-->
+			</form>
+			
+		
+			
+			<!--fieldset: c'est un élément de formulaire qui permettra de regrouper des éléments d'un formulaure ou de les segmenter-->
+				
+		</body>
+</html>

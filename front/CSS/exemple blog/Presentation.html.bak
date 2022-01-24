@@ -1,0 +1,47 @@
+<!Doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<title>Présentation</title>
+	</head>
+	
+	<body>
+	<header>
+		<img src="images/logo1.jpg" alt="logo" width="100"> 
+		<form>
+			<input type="search" placeholder="Rechercher..."/>
+			<button type="submit">Rechercher</button>
+			<nav>
+				<ul>
+					<li><a href="exemple10.html">Accueil</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</form>	
+		<h1>Mon Blog</h1>
+			<p>Apprendre le Code</p>
+	</header>
+	
+	<main>
+		<h1>Présentation</h1>
+		<p>
+		Ut quam risus, commodo vitae laoreet et, accumsan a dui. Sed faucibus placerat lorem dignissim euismod. Donec id vulputate eros. Donec ultricies, nibh vitae gravida interdum, libero elit porta justo, eu lobortis urna elit eu nibh. Sed malesuada erat id diam rutrum, et scelerisque augue dictum. Nulla facilisi. Mauris erat nibh, pretium quis luctus ac, interdum nec nulla. Morbi pulvinar eros eget neque mollis fringilla. Morbi vitae condimentum tellus, sed dictum massa. Vivamus id augue at sapien tincidunt posuere vel eu justo. Proin rhoncus, neque nec semper efficitur, turpis nibh scelerisque eros, sit amet finibus urna nulla quis est. Fusce at tellus eget nulla efficitur vulputate.
+		</p>
+		
+	</main>	
+	
+	<footer>
+		<h2>Liens utiles</h2>
+		<ul>
+			<li><a href="exemple10.html">Accueil</a></li>
+			<li><a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228" target="_blank">Mentions légales</a></li>
+		</ul>
+		<form action="" method="post">
+			<input type="text" placeholder="Inscrivez-vous svp"/>
+			<input type="submit" value="envoyer"/>
+		</form>
+		<p>Copyright &copy; 2021</p>
+	</footer>
+	</body>
+</html>
